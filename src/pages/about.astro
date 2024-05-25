@@ -1,0 +1,30 @@
+---
+// libraries
+import "bootstrap/dist/css/bootstrap.min.css";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+// ccs
+import "../css/style.css";
+import "../plugins/icofont/icofont.min.css";
+// Components
+import Footer from "./components/footer.astro";
+import Header from "./components/header.astro";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Policlínico Fátima</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+
+    <link href="../plugins/icofont/icofont.min.css" rel="stylesheet" /></head
+  >
+
+  <body>
+    <Header />
+    <h1>About</h1>
+    <Footer />
+  </body>
+</html>
