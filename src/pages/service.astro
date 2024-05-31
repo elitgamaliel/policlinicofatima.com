@@ -1,0 +1,113 @@
+---
+// libraries
+import "bootstrap/dist/css/bootstrap.min.css";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+// ccs
+import "../css/style.css";
+import "../plugins/icofont/icofont.min.css";
+// Components
+import Footer from "./components/footer.astro";
+import Header from "./components/header.astro";
+---
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Policlínico Fátima</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+
+	<link href="../plugins/icofont/icofont.min.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <Header />
+    <section class="page-title bg-1">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="block text-center">
+                <span class="text-white">Our services</span>
+                <h1 class="text-capitalize mb-5 text-lg">What We Do</h1>
+      
+                <!-- <ul class="list-inline breadcumb-nav">
+                  <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                  <li class="list-inline-item"><span class="text-white">/</span></li>
+                  <li class="list-inline-item"><a href="#" class="text-white-50">Our services</a></li>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="section service-2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="service-block mb-5">
+                          <img src="src/images/service/service-1.jpg" alt="" class="img-fluid">
+                          <div class="content">
+                              <h4 class="mt-4 mb-2 title-color">Child care</h4>
+                              <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="service-block mb-5">
+                          <img src="src/images/service/service-2.jpg" alt="" class="img-fluid">
+                          <div class="content">
+                              <h4 class="mt-4 mb-2  title-color">Personal Care</h4>
+                              <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="service-block mb-5">
+                          <img src="src/images/service/service-3.jpg" alt="" class="img-fluid">
+                          <div class="content">
+                              <h4 class="mt-4 mb-2 title-color">CT scan</h4>
+                              <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                          </div>
+                      </div>
+                  </div>
+      
+      
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="service-block mb-5 mb-lg-0">
+                          <img src="src/images/service/service-4.jpg" alt="" class="img-fluid">
+                          <div class="content">
+                              <h4 class="mt-4 mb-2 title-color">Joint replacement</h4>
+                              <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="service-block mb-5 mb-lg-0">
+                          <img src="src/images/service/service-6.jpg" alt="" class="img-fluid">
+                          <div class="content">
+                              <h4 class="mt-4 mb-2 title-color">Examination & Diagnosis</h4>
+                              <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="service-block mb-5 mb-lg-0">
+                          <img src="src/images/service/service-8.jpg" alt="" class="img-fluid">
+                          <div class="content">
+                              <h4 class="mt-4 mb-2 title-color">Alzheimer's disease</h4>
+                              <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    <Footer />
+</body>
+</html>
