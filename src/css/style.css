@@ -947,7 +947,7 @@ a:focus {
     display: none;
   }
 }
-.contact-form-wrap .form-group {
+.contact-form-wrap .form-group {  
   margin-bottom: 20px;
 }
 .contact-form-wrap .form-group .form-control {
@@ -956,6 +956,7 @@ a:focus {
   box-shadow: none;
   width: 100%;
   background: #f4f9fc;
+  border-radius: 50px;
 }
 .contact-form-wrap .form-group-2 {
   margin-bottom: 13px;
@@ -966,6 +967,7 @@ a:focus {
   box-shadow: none;
   background: #f4f9fc;
   width: 100%;
+  border-radius: 50px;
 }
 
 .social-icons li {
@@ -993,6 +995,7 @@ a:focus {
   text-align: center;
   border: 5px solid #EEF2F6;
   padding: 50px 25px;
+  border-radius: 50px;
 }
 .contact-block i {
   font-size: 50px;
