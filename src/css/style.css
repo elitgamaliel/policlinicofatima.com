@@ -524,6 +524,14 @@ a:focus {
   background: #e12454;
 }
 
+.lead {
+  text-align: justify;
+}
+
+.mb-4 {
+  text-align: justify;
+}
+
 @media (max-width: 480px) {
   .banner .block h1 {
     font-size: 38px;
